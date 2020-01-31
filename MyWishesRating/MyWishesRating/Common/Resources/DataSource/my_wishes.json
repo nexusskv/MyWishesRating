@@ -1,9 +1,27 @@
 {
-    "books": [
+    "All": [
+        {
+            "id": 0,
+            "name": "Books",
+            "image": "https://s1.iconbird.com/ico/0912/My7icons/w512h5121347801419Books1.png"
+        },
+        {
+            "id": 1,
+            "name": "Cars",
+            "image": "https://www.pngitem.com/pimgs/m/205-2056611_car-key-png-honda-group-cars-png-transparent.png"
+        },
+        {
+            "id": 2,
+            "name": "PC-Games",
+            "image": "https://www.pcgameshop.in/assets/images/img1.png"
+        }
+    ],
+    "Books": [
         {
             "id": 1,
             "name": "Inland: A Novel",
             "author": "Tea Obreht",
+            "year": 2020,
             "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1566831499-41o2Bl9htIgL.jpg?crop=1xw:0.987xh;center,top&resize=768:*",
             "cost": 14.29,
             "shop": "Amazon"
@@ -12,6 +30,7 @@
             "id": 2,
             "name": "Daisy Jones & The Six",
             "author": "Taylor Jenkins Reid",
+            "year": 2020,
             "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1556810794-51zVMq4SniL.jpg?crop=1xw:0.993xh;center,top&resize=768:*",
             "cost": 10.44,
             "shop": "Amazon"
@@ -20,6 +39,7 @@
             "id": 3,
             "name": "Three Women",
             "author": "Lisa Taddeo",
+            "year": 2020,
             "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1566831554-41tvXIFI9GL.jpg?crop=0.992xw:1xh;center,top&resize=768:*",
             "cost": 16.20,
             "shop": "Amazon"
@@ -28,6 +48,7 @@
             "id": 4,
             "name": "I Miss You When I Blink",
             "author": "Mary Laura Philpott",
+            "year": 2020,
             "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1556810937-417tPo7IpzL.jpg?crop=1xw:0.978xh;center,top&resize=768:*",
             "cost": 10.00,
             "shop": "eBay"
@@ -36,6 +57,7 @@
             "id": 5,
             "name": "The Water Cure: A Novel",
             "author": "Sophie Mackintosh",
+            "year": 2020,
             "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1566913887-31LPhb2Bp9fL.jpg?crop=1xw:0.990xh;center,top&resize=768:*",
             "cost": 15.30,
             "shop": "Amazon"
@@ -44,6 +66,7 @@
             "id": 6,
             "name": "The Care and Feeding of Ravenously Hungry Girls",
             "author": "Anissa Gray",
+            "year": 2015,
             "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1566846342-616x41GEyIL.jpg?crop=1xw:0.999xh;center,top&resize=768:*",
             "cost": 15.25,
             "shop": "eBay"
@@ -52,6 +75,7 @@
             "id": 7,
             "name": "The Testaments: The Sequel to The Handmaid's Tale",
             "author": "Margaret Atwood",
+            "year": 2014,
             "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1566831609-419TWZk7luL.jpg?crop=1xw:0.987xh;center,top&resize=768:*",
             "cost": 17.14,
             "shop": "Wordery"
@@ -60,6 +84,7 @@
             "id": 8,
             "name": "My Lovely Wife",
             "author": "Samantha Downing",
+            "year": 2010,
             "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1566916060-41puEticlnL.jpg?crop=1xw:0.993xh;center,top&resize=768:*",
             "cost": 12.99,
             "shop": "Amazon"
@@ -68,6 +93,7 @@
             "id": 9,
             "name": "Rough Magic: Riding the World's Loneliest Horse Race",
             "author": "Lara Prior-Palmer",
+            "year": 2005,
             "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1573669415-51Lm9vWZB2L.jpg?crop=1xw:0.999xh;center,top&resize=768:*",
             "cost": 14.67,
             "shop": "Wordery"
@@ -76,6 +102,7 @@
             "id": 10,
             "name": "Women Talking",
             "author": "Miriam Toews",
+            "year": 2000,
             "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1566846521-41iDEL98tyL.jpg?crop=1xw:0.993xh;center,top&resize=768:*",
             "cost": 15.18,
             "shop": "Wordery"
@@ -84,6 +111,7 @@
             "id": 11,
             "name": "American Spy",
             "author": "Lauren Wilkinson",
+            "year": 2000,
             "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1556811053-416OUOetrKL.jpg?crop=1xw:0.987xh;center,top&resize=768:*",
             "cost": 24.30,
             "shop": "Wordery"
@@ -92,7 +120,8 @@
             "id": 12,
             "name": "City of Girls: A Novel",
             "author": "Elizabeth Gilbert",
-            "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1566831738-51VP8qOBvYL.jpg?crop=1xw:0.993xh;center,top&resize=768:*
+            "year": 2019,
+            "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1566831738-51VP8qOBvYL.jpg?crop=1xw:0.993xh;center,top&resize=768:*",
             "cost": 14.69,
             "shop": "Amazon"
         },
@@ -100,6 +129,7 @@
             "id": 13,
             "name": "As Long as We Both Shall Live",
             "author": "Joann Chaney",
+            "year": 2018,
             "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1556811113-419fvSF9vsL.jpg?crop=1xw:0.987xh;center,top&resize=768:*",
             "cost": 16.69,
             "shop": "eBay"
@@ -108,6 +138,7 @@
             "id": 14,
             "name": "Golden Child: A Novel",
             "author": "Claire Adam",
+            "year": 2018,
             "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1566915253-41KXuTjuRuL.jpg?crop=1xw:0.993xh;center,top&resize=768:*",
             "cost": 7.00,
             "shop": "eBay"
@@ -116,6 +147,7 @@
             "id": 15,
             "name": "Mrs. Everything: A Novel",
             "author": "Jennifer Weiner",
+            "year": 2017,
             "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1566846645-41ER6iw766L.jpg?crop=1xw:0.993xh;center,top&resize=768:*",
             "cost": 15.40,
             "shop": "Amazon"
@@ -124,6 +156,7 @@
             "id": 16,
             "name": "The Moment of Lift: How Empowering Women Changes the World",
             "author": "Melinda Gates",
+            "year": 2017,
             "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1566831786-41W9YpbHNbL.jpg?crop=1xw:0.993xh;center,top&resize=768:*",
             "cost": 13.00,
             "shop": "eBay"
@@ -132,6 +165,7 @@
             "id": 17,
             "name": "Fleishman Is in Trouble: A Novel",
             "author": "Taffy Brodesser-Akner",
+            "year": 2016,
             "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1566846731-51KO3uIoSNL.jpg?crop=1xw:0.993xh;center,top&resize=768:*",
             "cost": 15.10,
             "shop": "Wordery"
@@ -140,6 +174,7 @@
             "id": 18,
             "name": "Doxology: A Novel",
             "author": "Nell Zink",
+            "year": 2016,
             "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1573663050-51pY6F589HL.jpg?crop=1xw:0.993xh;center,top&resize=768:*",
             "cost": 10.10,
             "shop": "Wordery"
@@ -148,6 +183,7 @@
             "id": 19,
             "name": "Queenie",
             "author": "Candice Carty-Williams",
+            "year": 2015,
             "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1556811177-41Jvsr9kXBL.jpg?crop=1.00xw:0.932xh;0,0.0260xh&resize=768:*",
             "cost": 9.95,
             "shop": "Amazon"
@@ -156,11 +192,12 @@
             "id": 20,
             "name": "Once More We Saw Stars: A Memoir",
             "author": "Jayson Greene",
+            "year": 2015,
             "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1566831840-418vf6z2ByCL.jpg?crop=1xw:0.987xh;center,top&resize=768:*",
             "cost": 15.00,
             "shop": "eBay"
         }],
-    "cars": [
+    "Cars": [
         {
             "id": 1,
             "name": "Tesla Model 3",
@@ -268,11 +305,12 @@
             "cost": 39545.00,
             "shop": "Euro Shop"
         }],
-    "pc-games": [
+    "PC-Games": [
         {
             "id": 1,
             "name": "The Witcher 3: Wild Hunt",
             "author": "CD Projekt RED",
+            "year": 2020,
             "image": "https://cdn.mos.cms.futurecdn.net/SX3hwkCKgRwTHfjy7NBwoH-650-80.jpg",
             "cost": 49.90,
             "shop": "Amazon"
@@ -281,6 +319,7 @@
             "id": 2,
             "name": "Dark Souls 3",
             "author": "From Software",
+            "year": 2020,
             "image": "https://cdn.mos.cms.futurecdn.net/C5x4BxuiKCHwKix82McUqi-650-80.jpg",
             "cost": 84.98,
             "shop": "Greenman Gaming"
@@ -289,6 +328,7 @@
             "id": 3,
             "name": "Control",
             "author": "Remedy Entertainment",
+            "year": 2020,
             "image": "https://cdn.mos.cms.futurecdn.net/sqioeGCsW938qgpaV7sNdL-650-80.jpg",
             "cost": 100.00,
             "shop": "Steam"
@@ -297,6 +337,7 @@
             "id": 4,
             "name": "Monster Hunter World",
             "author": "Capcom",
+            "year": 2010,
             "image": "https://cdn.mos.cms.futurecdn.net/iFt92pU9DYWoRhiYErx57X-650-80.jpg",
             "cost": 47.75,
             "shop": "Fanatical"
@@ -305,6 +346,7 @@
             "id": 5,
             "name": "Red Dead Redemption 2",
             "author": "Rockstar Games",
+            "year": 2000,
             "image": "https://cdn.mos.cms.futurecdn.net/H5VxFsNybtHVBh9qhtuG66-650-80.jpg",
             "cost": 44.15,
             "shop": "Greenman Gaming"
@@ -313,6 +355,7 @@
             "id": 6,
             "name": "Sid Meier's Civilization VI",
             "author": "2K Games",
+            "year": 2010,
             "image": "https://cdn.mos.cms.futurecdn.net/3Ys5DJELzREdbbBEzzTsPU-650-80.jpg",
             "cost": 16.20,
             "shop": "Greenman Gaming"
@@ -321,6 +364,7 @@
             "id": 7,
             "name": "Alien: Isolation",
             "author": "Creative Assembly",
+            "year": 2004,
             "image": "https://cdn.mos.cms.futurecdn.net/5DgxzhYZfp65yTDVpHZQBA-650-80.jpg",
             "cost": 39.49,
             "shop": "Fanatical"
@@ -329,6 +373,7 @@
             "id": 8,
             "name": "Overwatch",
             "author": "Blizzard Entertainment",
+            "year": 2005,
             "image": "https://cdn.mos.cms.futurecdn.net/ZvgZYM8zJdqBqA8ZYUkVwj-650-80.jpg",
             "cost": 145.50,
             "shop": "Amazon"
@@ -337,6 +382,7 @@
             "id": 9,
             "name": "Forza Horizon 4",
             "author": "Microsoft",
+            "year": 2009,
             "image": "https://cdn.mos.cms.futurecdn.net/wQLVJbZhCRpUPJhLZcyuAa-650-80.jpg",
             "cost": 105.00,
             "shop": "Amazon"
@@ -345,6 +391,7 @@
             "id": 10,
             "name": "Thimbleweed Park",
             "author": "Terrible Toybox",
+            "year": 2019,
             "image": "https://cdn.mos.cms.futurecdn.net/XoUJ8V9v2eY9XmR2JPHLq7-650-80.jpg",
             "cost": 64.00,
             "shop": "Amazon"
@@ -353,6 +400,7 @@
             "id": 11,
             "name": "Sekiro: Shadows Die Twice",
             "author": "From Software",
+            "year": 2018,
             "image": "https://cdn.mos.cms.futurecdn.net/N9PhzQvJqggyAbC6FPyH8j-650-80.jpg",
             "cost": 55.05,
             "shop": "Amazon"
@@ -361,6 +409,7 @@
             "id": 12,
             "name": "Minecraft",
             "author": "Microsoft",
+            "year": 2000,
             "image": "https://cdn.mos.cms.futurecdn.net/cf385b6fcd3b41461c556206e80eee6d-650-80.jpg",
             "cost": 26.95,
             "shop": "Amazon"
@@ -369,6 +418,7 @@
             "id": 13,
             "name": "Doom",
             "author": "Bethesda",
+            "year": 2001,
             "image": "https://cdn.mos.cms.futurecdn.net/PV2F5uzJJR8HygQRmLrLyU-650-80.jpg",
             "cost": 70.58,
             "shop": "Amazon"
@@ -377,6 +427,7 @@
             "id": 14,
             "name": "Fortnite Battle Royale",
             "author": "Epic Games",
+            "year": 2003,
             "image": "https://cdn.mos.cms.futurecdn.net/kRXPaebtQjZ42dBiV4aQxd-650-80.jpg",
             "cost": 394.00,
             "shop": "Amazon"
@@ -385,8 +436,9 @@
             "id": 15,
             "name": "Cuphead",
             "author": "Studio MDHR",
+            "year": 2002,
             "image": "https://cdn.mos.cms.futurecdn.net/dgDt86XTSBjjJ52LggFjk-650-80.jpg",
             "cost": 19.99,
             "shop": "Greenman Gaming"
-        },
+        }]
 }

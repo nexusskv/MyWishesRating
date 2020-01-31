@@ -17,7 +17,29 @@
 		1177ACC223E3214000ACF10C /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1177ACC123E3214000ACF10C /* ListViewController.swift */; };
 		1177ACCA23E3257E00ACF10C /* WishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1177ACC923E3257E00ACF10C /* WishViewController.swift */; };
 		1177ACD123E325BC00ACF10C /* Wish.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1177ACD023E325BC00ACF10C /* Wish.storyboard */; };
-		1177ACD423E325DD00ACF10C /* my_wishes.json in Resources */ = {isa = PBXBuildFile; fileRef = 1177ACD323E325DD00ACF10C /* my_wishes.json */; };
+		117D586D23E34A2B001FACD0 /* WishObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D586C23E34A2B001FACD0 /* WishObject.swift */; };
+		117D587123E36585001FACD0 /* JsonReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D587023E36585001FACD0 /* JsonReader.swift */; };
+		117D587523E36C7F001FACD0 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D587423E36C7F001FACD0 /* DataManager.swift */; };
+		117D587823E36E11001FACD0 /* DataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D587723E36E11001FACD0 /* DataContainer.swift */; };
+		117D587A23E376A2001FACD0 /* ObserversManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D587923E376A2001FACD0 /* ObserversManager.swift */; };
+		117D587E23E37AD3001FACD0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D587D23E37AD3001FACD0 /* Constants.swift */; };
+		117D588423E37C97001FACD0 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D588323E37C97001FACD0 /* Enums.swift */; };
+		117D588823E37EF9001FACD0 /* AlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D588723E37EF9001FACD0 /* AlertPresenter.swift */; };
+		117D588A23E3809D001FACD0 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D588923E3809D001FACD0 /* ListViewModel.swift */; };
+		117D588D23E3848E001FACD0 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D588C23E3848E001FACD0 /* AsyncImageView.swift */; };
+		117D588F23E384BB001FACD0 /* AsyncImageView+Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D588E23E384BB001FACD0 /* AsyncImageView+Setter.swift */; };
+		117D589323E390BD001FACD0 /* WishObject+Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D589223E390BD001FACD0 /* WishObject+Decodable.swift */; };
+		117D589523E390FA001FACD0 /* CodingKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D589423E390FA001FACD0 /* CodingKeys.swift */; };
+		117D589823E39AD2001FACD0 /* ListObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D589723E39AD2001FACD0 /* ListObject.swift */; };
+		117D589A23E3A135001FACD0 /* ListViewController+TableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D589923E3A135001FACD0 /* ListViewController+TableDataSource.swift */; };
+		117D589C23E3A144001FACD0 /* ListViewController+TableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D589B23E3A144001FACD0 /* ListViewController+TableDelegate.swift */; };
+		117D589F23E3A2AD001FACD0 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D589E23E3A2AD001FACD0 /* ListCell.swift */; };
+		117D58A123E3A75E001FACD0 /* ListObject+Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D58A023E3A75E001FACD0 /* ListObject+Decodable.swift */; };
+		117D58A323E3A98A001FACD0 /* my_wishes.json in Resources */ = {isa = PBXBuildFile; fileRef = 117D58A223E3A989001FACD0 /* my_wishes.json */; };
+		117D58A523E3AC2D001FACD0 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D58A423E3AC2D001FACD0 /* Router.swift */; };
+		117D58A723E3AE59001FACD0 /* ListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D58A623E3AE59001FACD0 /* ListCellViewModel.swift */; };
+		117D58A923E3B097001FACD0 /* WishViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D58A823E3B097001FACD0 /* WishViewModel.swift */; };
+		117D58AD23E3B326001FACD0 /* UIView+Corners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D58AC23E3B326001FACD0 /* UIView+Corners.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +76,29 @@
 		1177ACC123E3214000ACF10C /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		1177ACC923E3257E00ACF10C /* WishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishViewController.swift; sourceTree = "<group>"; };
 		1177ACD023E325BC00ACF10C /* Wish.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Wish.storyboard; sourceTree = "<group>"; };
-		1177ACD323E325DD00ACF10C /* my_wishes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = my_wishes.json; sourceTree = "<group>"; };
+		117D586C23E34A2B001FACD0 /* WishObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishObject.swift; sourceTree = "<group>"; };
+		117D587023E36585001FACD0 /* JsonReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonReader.swift; sourceTree = "<group>"; };
+		117D587423E36C7F001FACD0 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		117D587723E36E11001FACD0 /* DataContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataContainer.swift; sourceTree = "<group>"; };
+		117D587923E376A2001FACD0 /* ObserversManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserversManager.swift; sourceTree = "<group>"; };
+		117D587D23E37AD3001FACD0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		117D588323E37C97001FACD0 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		117D588723E37EF9001FACD0 /* AlertPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresenter.swift; sourceTree = "<group>"; };
+		117D588923E3809D001FACD0 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		117D588C23E3848E001FACD0 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		117D588E23E384BB001FACD0 /* AsyncImageView+Setter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AsyncImageView+Setter.swift"; sourceTree = "<group>"; };
+		117D589223E390BD001FACD0 /* WishObject+Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WishObject+Decodable.swift"; sourceTree = "<group>"; };
+		117D589423E390FA001FACD0 /* CodingKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingKeys.swift; sourceTree = "<group>"; };
+		117D589723E39AD2001FACD0 /* ListObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListObject.swift; sourceTree = "<group>"; };
+		117D589923E3A135001FACD0 /* ListViewController+TableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListViewController+TableDataSource.swift"; sourceTree = "<group>"; };
+		117D589B23E3A144001FACD0 /* ListViewController+TableDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListViewController+TableDelegate.swift"; sourceTree = "<group>"; };
+		117D589E23E3A2AD001FACD0 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		117D58A023E3A75E001FACD0 /* ListObject+Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListObject+Decodable.swift"; sourceTree = "<group>"; };
+		117D58A223E3A989001FACD0 /* my_wishes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = my_wishes.json; sourceTree = "<group>"; };
+		117D58A423E3AC2D001FACD0 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		117D58A623E3AE59001FACD0 /* ListCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCellViewModel.swift; sourceTree = "<group>"; };
+		117D58A823E3B097001FACD0 /* WishViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishViewModel.swift; sourceTree = "<group>"; };
+		117D58AC23E3B326001FACD0 /* UIView+Corners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Corners.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +152,8 @@
 				1177ACBA23E320CA00ACF10C /* Application */,
 				1177ACBB23E320D700ACF10C /* Modules */,
 				1177ACBC23E320E000ACF10C /* Common */,
+				1177ACD623E327AC00ACF10C /* Endpoints */,
+				1177ACD523E3279A00ACF10C /* Router */,
 			);
 			path = MyWishesRating;
 			sourceTree = "<group>";
@@ -151,6 +197,11 @@
 		1177ACBC23E320E000ACF10C /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				117D58AA23E3B30C001FACD0 /* Extensions */,
+				117D588523E37EE1001FACD0 /* UI */,
+				117D587B23E37AA9001FACD0 /* Definitions */,
+				117D587623E36DF3001FACD0 /* DataContainer */,
+				117D586E23E36560001FACD0 /* Objects */,
 				1177ACBD23E320F100ACF10C /* Resources */,
 			);
 			path = Common;
@@ -160,9 +211,9 @@
 			isa = PBXGroup;
 			children = (
 				1177ACD223E325D100ACF10C /* DataSource */,
-				1177AC9823E320C100ACF10C /* Info.plist */,
 				1177ACBE23E320FB00ACF10C /* Storyboard */,
 				1177ACBF23E3210F00ACF10C /* Images */,
+				1177AC9823E320C100ACF10C /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -196,6 +247,8 @@
 		1177ACC323E3215B00ACF10C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				117D589923E3A135001FACD0 /* ListViewController+TableDataSource.swift */,
+				117D589B23E3A144001FACD0 /* ListViewController+TableDelegate.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -204,6 +257,8 @@
 			isa = PBXGroup;
 			children = (
 				1177ACC523E3216900ACF10C /* ViewModels */,
+				117D587223E36C69001FACD0 /* Managers */,
+				117D586423E349BB001FACD0 /* Data objects */,
 				1177ACC623E3217300ACF10C /* UI */,
 				1177ACC723E3217700ACF10C /* Storyboard */,
 			);
@@ -213,6 +268,8 @@
 		1177ACC523E3216900ACF10C /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				117D588923E3809D001FACD0 /* ListViewModel.swift */,
+				117D58A623E3AE59001FACD0 /* ListCellViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -220,6 +277,7 @@
 		1177ACC623E3217300ACF10C /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				117D589D23E3A29E001FACD0 /* ListCell */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -262,6 +320,7 @@
 		1177ACCD23E3259600ACF10C /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				117D58A823E3B097001FACD0 /* WishViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -284,9 +343,144 @@
 		1177ACD223E325D100ACF10C /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
-				1177ACD323E325DD00ACF10C /* my_wishes.json */,
+				117D58A223E3A989001FACD0 /* my_wishes.json */,
 			);
 			path = DataSource;
+			sourceTree = "<group>";
+		};
+		1177ACD523E3279A00ACF10C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				117D58A423E3AC2D001FACD0 /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1177ACD623E327AC00ACF10C /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		117D586423E349BB001FACD0 /* Data objects */ = {
+			isa = PBXGroup;
+			children = (
+				117D589623E39AC2001FACD0 /* ListObject */,
+				117D586523E349C7001FACD0 /* WishObject */,
+			);
+			path = "Data objects";
+			sourceTree = "<group>";
+		};
+		117D586523E349C7001FACD0 /* WishObject */ = {
+			isa = PBXGroup;
+			children = (
+				117D586C23E34A2B001FACD0 /* WishObject.swift */,
+				117D589223E390BD001FACD0 /* WishObject+Decodable.swift */,
+			);
+			path = WishObject;
+			sourceTree = "<group>";
+		};
+		117D586E23E36560001FACD0 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				117D586F23E3656F001FACD0 /* JsonReader */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		117D586F23E3656F001FACD0 /* JsonReader */ = {
+			isa = PBXGroup;
+			children = (
+				117D587023E36585001FACD0 /* JsonReader.swift */,
+			);
+			path = JsonReader;
+			sourceTree = "<group>";
+		};
+		117D587223E36C69001FACD0 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				117D587423E36C7F001FACD0 /* DataManager.swift */,
+				117D587923E376A2001FACD0 /* ObserversManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		117D587623E36DF3001FACD0 /* DataContainer */ = {
+			isa = PBXGroup;
+			children = (
+				117D587723E36E11001FACD0 /* DataContainer.swift */,
+			);
+			path = DataContainer;
+			sourceTree = "<group>";
+		};
+		117D587B23E37AA9001FACD0 /* Definitions */ = {
+			isa = PBXGroup;
+			children = (
+				117D587D23E37AD3001FACD0 /* Constants.swift */,
+				117D588323E37C97001FACD0 /* Enums.swift */,
+				117D589423E390FA001FACD0 /* CodingKeys.swift */,
+			);
+			path = Definitions;
+			sourceTree = "<group>";
+		};
+		117D588523E37EE1001FACD0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				117D588B23E3847C001FACD0 /* AsyncImageView */,
+				117D588623E37EE6001FACD0 /* AlertPresenter */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		117D588623E37EE6001FACD0 /* AlertPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				117D588723E37EF9001FACD0 /* AlertPresenter.swift */,
+			);
+			path = AlertPresenter;
+			sourceTree = "<group>";
+		};
+		117D588B23E3847C001FACD0 /* AsyncImageView */ = {
+			isa = PBXGroup;
+			children = (
+				117D588C23E3848E001FACD0 /* AsyncImageView.swift */,
+				117D588E23E384BB001FACD0 /* AsyncImageView+Setter.swift */,
+			);
+			path = AsyncImageView;
+			sourceTree = "<group>";
+		};
+		117D589623E39AC2001FACD0 /* ListObject */ = {
+			isa = PBXGroup;
+			children = (
+				117D589723E39AD2001FACD0 /* ListObject.swift */,
+				117D58A023E3A75E001FACD0 /* ListObject+Decodable.swift */,
+			);
+			path = ListObject;
+			sourceTree = "<group>";
+		};
+		117D589D23E3A29E001FACD0 /* ListCell */ = {
+			isa = PBXGroup;
+			children = (
+				117D589E23E3A2AD001FACD0 /* ListCell.swift */,
+			);
+			path = ListCell;
+			sourceTree = "<group>";
+		};
+		117D58AA23E3B30C001FACD0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				117D58AB23E3B316001FACD0 /* UIView */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		117D58AB23E3B316001FACD0 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				117D58AC23E3B326001FACD0 /* UIView+Corners.swift */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,7 +589,7 @@
 			files = (
 				1177AC9723E320C100ACF10C /* LaunchScreen.storyboard in Resources */,
 				1177ACD123E325BC00ACF10C /* Wish.storyboard in Resources */,
-				1177ACD423E325DD00ACF10C /* my_wishes.json in Resources */,
+				117D58A323E3A98A001FACD0 /* my_wishes.json in Resources */,
 				1177AC9423E320C100ACF10C /* Assets.xcassets in Resources */,
 				1177AC9223E320C000ACF10C /* Main.storyboard in Resources */,
 			);
@@ -422,10 +616,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				117D587123E36585001FACD0 /* JsonReader.swift in Sources */,
+				117D58AD23E3B326001FACD0 /* UIView+Corners.swift in Sources */,
+				117D589523E390FA001FACD0 /* CodingKeys.swift in Sources */,
+				117D587823E36E11001FACD0 /* DataContainer.swift in Sources */,
+				117D589F23E3A2AD001FACD0 /* ListCell.swift in Sources */,
+				117D58A923E3B097001FACD0 /* WishViewModel.swift in Sources */,
 				1177AC8B23E320C000ACF10C /* AppDelegate.swift in Sources */,
+				117D588423E37C97001FACD0 /* Enums.swift in Sources */,
+				117D588823E37EF9001FACD0 /* AlertPresenter.swift in Sources */,
+				117D589C23E3A144001FACD0 /* ListViewController+TableDelegate.swift in Sources */,
+				117D589323E390BD001FACD0 /* WishObject+Decodable.swift in Sources */,
+				117D588A23E3809D001FACD0 /* ListViewModel.swift in Sources */,
+				117D588F23E384BB001FACD0 /* AsyncImageView+Setter.swift in Sources */,
+				117D586D23E34A2B001FACD0 /* WishObject.swift in Sources */,
+				117D58A123E3A75E001FACD0 /* ListObject+Decodable.swift in Sources */,
 				1177ACCA23E3257E00ACF10C /* WishViewController.swift in Sources */,
 				1177AC8D23E320C000ACF10C /* SceneDelegate.swift in Sources */,
+				117D587523E36C7F001FACD0 /* DataManager.swift in Sources */,
+				117D58A523E3AC2D001FACD0 /* Router.swift in Sources */,
+				117D587A23E376A2001FACD0 /* ObserversManager.swift in Sources */,
+				117D58A723E3AE59001FACD0 /* ListCellViewModel.swift in Sources */,
+				117D589823E39AD2001FACD0 /* ListObject.swift in Sources */,
+				117D589A23E3A135001FACD0 /* ListViewController+TableDataSource.swift in Sources */,
+				117D588D23E3848E001FACD0 /* AsyncImageView.swift in Sources */,
 				1177ACC223E3214000ACF10C /* ListViewController.swift in Sources */,
+				117D587E23E37AD3001FACD0 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

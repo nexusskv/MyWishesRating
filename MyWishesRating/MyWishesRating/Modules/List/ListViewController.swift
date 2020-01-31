@@ -11,11 +11,40 @@ import UIKit
 
 
 class ListViewController: UIViewController {
-
+    @IBOutlet weak var dataTable: UITableView!
+    var viewModel: ListViewModel!
+    var observersManager: ObserversManager!
+        
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        viewModel           = ListViewModel()
+        observersManager    = ObserversManager()
+        
+        viewModel.setupUI(self)
+    }
+    
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        observersManager.addObservers(self)
+        
+        if DataContainer.shared.listArray == nil {
+            DataManager.makeDataSource(self)
+        }
+    }
+    
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        observersManager.removeObservers(self)
     }
 
-
+    
+    @objc func reloadList() {
+        viewModel.reloadTable(self)
+    }
 }
