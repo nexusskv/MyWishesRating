@@ -17,5 +17,5 @@ struct WishObject {
     var image   = ""
     var cost    = 0.0
     var shop    = ""
-    var rating  = 0
+    var rating: Float  = 0.0
 }

@@ -31,21 +31,25 @@ class AsyncImageView: UIImageView {
         
         URLSession.shared.dataTask(with: requestURL) { (data, response, error) in
             DispatchQueue.main.async { [weak self] in
+                guard let strongSelf = self else {
+                    return
+                }
+                
                 if error == nil {
                     if let imageData = data {
-                        if self?.currentURL == imageURL {
+                        if strongSelf.currentURL == imageURL {
                             if let imageToPresent = UIImage(data: imageData) {
                                 asyncImagesCashArray.setObject(imageToPresent, forKey: imageURL)
-                                self?.image = imageToPresent
+                                strongSelf.image = imageToPresent
                             } else {
-                                self?.image = placeholder!
+                                strongSelf.image = placeholder!
                             }
                         }
                     } else {
-                        self?.image = placeholder
+                        strongSelf.image = placeholder
                     }
                 } else {
-                    self?.image = placeholder
+                    strongSelf.image = placeholder
                 }
             }
         }.resume()

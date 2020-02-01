@@ -38,6 +38,6 @@ extension WishObject: Decodable {
             shop = value
         }
         
-        rating = Int.random(in: 1 ..< 10)
+        rating = Float.random(in: 1 ..< 10)
     }
 }

@@ -11,7 +11,7 @@ import UIKit
 
 
 class ListCell: UITableViewCell {
-    @IBOutlet weak var listImageView: AsyncImageView!
+    @IBOutlet weak var listImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     var viewModel: ListCellViewModel!
     
@@ -22,6 +22,6 @@ class ListCell: UITableViewCell {
         
         viewModel = ListCellViewModel()
         
-        listImageView.roundCorners(listImageView.frame.size.width / 2.0)
+        viewModel.setupUI(self)
     }    
 }
