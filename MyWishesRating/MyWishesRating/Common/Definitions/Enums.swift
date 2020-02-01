@@ -15,3 +15,20 @@ enum WishesTypes: Int {
     case cars
     case pcgames
 }
+
+
+enum WishesSortTypes: Int {
+    case none     = 0
+    case nameAsc
+    case nameDesc
+    case authorAsc
+    case authorDesc
+    case yearAsc
+    case yearDesc
+    case costAsc
+    case costDesc
+    case shopAsc
+    case shopDesc
+    case ratingAsc
+    case ratingDesc
+}

@@ -10,3 +10,14 @@ import Foundation
 
 /// ---> Names for notification center <--- ///
 let reloadListName          = NSNotification.Name("reloadList")
+let changeRatingName        = NSNotification.Name("changeRating")
+let changeRatingLimitName   = NSNotification.Name("changeRatingLimit")
+let tableNeedRefreshName    = NSNotification.Name("tableNeedRefresh")
+let sortItemTappedName      = NSNotification.Name("sortItemTapped")
+let sortTypeSelectedName    = NSNotification.Name("sortTypeSelected")
+
+let lowRate: Float     = 0.0
+let topRate: Float     = 10.0
+
+let rateUp             = "up"
+let rateDown           = "down"

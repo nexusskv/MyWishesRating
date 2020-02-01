@@ -3,17 +3,17 @@
         {
             "id": 0,
             "name": "Books",
-            "image": "https://s1.iconbird.com/ico/0912/My7icons/w512h5121347801419Books1.png"
+            "image": "books"
         },
         {
             "id": 1,
             "name": "Cars",
-            "image": "https://www.pngitem.com/pimgs/m/205-2056611_car-key-png-honda-group-cars-png-transparent.png"
+            "image": "cars"
         },
         {
             "id": 2,
             "name": "PC-Games",
-            "image": "https://www.pcgameshop.in/assets/images/img1.png"
+            "image": "pcgames"
         }
     ],
     "Books": [

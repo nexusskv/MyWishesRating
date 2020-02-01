@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1100B36923E4EAE2006A0A48 /* SortManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1100B36823E4EAE2006A0A48 /* SortManager.swift */; };
+		1100B36B23E4EAF7006A0A48 /* WishObserversManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1100B36A23E4EAF7006A0A48 /* WishObserversManager.swift */; };
+		1100B36D23E4EFB9006A0A48 /* WishViewModel+Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1100B36C23E4EFB9006A0A48 /* WishViewModel+Table.swift */; };
+		1100B36F23E4F3B3006A0A48 /* WishViewController+Selectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1100B36E23E4F3B3006A0A48 /* WishViewController+Selectors.swift */; };
+		1100B37223E4F447006A0A48 /* WishViewModel+Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1100B37123E4F447006A0A48 /* WishViewModel+Rating.swift */; };
+		1100B37423E4F45D006A0A48 /* WishViewModel+NavigationSelectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1100B37323E4F45D006A0A48 /* WishViewModel+NavigationSelectors.swift */; };
+		1100B37723E4F6F4006A0A48 /* UIMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1100B37623E4F6F4006A0A48 /* UIMaker.swift */; };
+		1100B37A23E5060D006A0A48 /* SortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1100B37923E5060D006A0A48 /* SortView.swift */; };
+		1100B37D23E50656006A0A48 /* SortViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1100B37C23E50656006A0A48 /* SortViewModel.swift */; };
+		1100B38123E50857006A0A48 /* SortCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1100B38023E50857006A0A48 /* SortCell.swift */; };
+		1100B38323E50875006A0A48 /* SortView+TableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1100B38223E50875006A0A48 /* SortView+TableDataSource.swift */; };
+		1100B38523E50889006A0A48 /* SortView+TableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1100B38423E50889006A0A48 /* SortView+TableDelegate.swift */; };
+		1100B38823E50A0F006A0A48 /* SortCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1100B38723E50A0F006A0A48 /* SortCellViewModel.swift */; };
+		1138C94323E5BDAE00F944AB /* UIView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1138C94223E5BDAE00F944AB /* UIView+Animation.swift */; };
 		1177AC8B23E320C000ACF10C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1177AC8A23E320C000ACF10C /* AppDelegate.swift */; };
 		1177AC8D23E320C000ACF10C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1177AC8C23E320C000ACF10C /* SceneDelegate.swift */; };
 		1177AC9223E320C000ACF10C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1177AC9023E320C000ACF10C /* Main.storyboard */; };
@@ -40,6 +54,13 @@
 		117D58A723E3AE59001FACD0 /* ListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D58A623E3AE59001FACD0 /* ListCellViewModel.swift */; };
 		117D58A923E3B097001FACD0 /* WishViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D58A823E3B097001FACD0 /* WishViewModel.swift */; };
 		117D58AD23E3B326001FACD0 /* UIView+Corners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D58AC23E3B326001FACD0 /* UIView+Corners.swift */; };
+		11B9CC1A23E4573E00EB03DA /* WishViewController+TableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B9CC1923E4573E00EB03DA /* WishViewController+TableDataSource.swift */; };
+		11B9CC1C23E4575200EB03DA /* WishViewController+TableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B9CC1B23E4575200EB03DA /* WishViewController+TableDelegate.swift */; };
+		11B9CC1F23E457C400EB03DA /* WishCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B9CC1E23E457C400EB03DA /* WishCell.swift */; };
+		11B9CC2123E458D000EB03DA /* WishCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B9CC2023E458D000EB03DA /* WishCellViewModel.swift */; };
+		11B9CC2423E461D600EB03DA /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B9CC2323E461D600EB03DA /* RatingView.swift */; };
+		11B9CC2723E4620F00EB03DA /* RatingView+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B9CC2623E4620F00EB03DA /* RatingView+Base.swift */; };
+		11B9CC2923E4624C00EB03DA /* RatingView+Setters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B9CC2823E4624C00EB03DA /* RatingView+Setters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +81,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1100B36823E4EAE2006A0A48 /* SortManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortManager.swift; sourceTree = "<group>"; };
+		1100B36A23E4EAF7006A0A48 /* WishObserversManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishObserversManager.swift; sourceTree = "<group>"; };
+		1100B36C23E4EFB9006A0A48 /* WishViewModel+Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WishViewModel+Table.swift"; sourceTree = "<group>"; };
+		1100B36E23E4F3B3006A0A48 /* WishViewController+Selectors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WishViewController+Selectors.swift"; sourceTree = "<group>"; };
+		1100B37123E4F447006A0A48 /* WishViewModel+Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WishViewModel+Rating.swift"; sourceTree = "<group>"; };
+		1100B37323E4F45D006A0A48 /* WishViewModel+NavigationSelectors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WishViewModel+NavigationSelectors.swift"; sourceTree = "<group>"; };
+		1100B37623E4F6F4006A0A48 /* UIMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIMaker.swift; sourceTree = "<group>"; };
+		1100B37923E5060D006A0A48 /* SortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortView.swift; sourceTree = "<group>"; };
+		1100B37C23E50656006A0A48 /* SortViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortViewModel.swift; sourceTree = "<group>"; };
+		1100B38023E50857006A0A48 /* SortCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortCell.swift; sourceTree = "<group>"; };
+		1100B38223E50875006A0A48 /* SortView+TableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SortView+TableDataSource.swift"; sourceTree = "<group>"; };
+		1100B38423E50889006A0A48 /* SortView+TableDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SortView+TableDelegate.swift"; sourceTree = "<group>"; };
+		1100B38723E50A0F006A0A48 /* SortCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortCellViewModel.swift; sourceTree = "<group>"; };
+		1138C94223E5BDAE00F944AB /* UIView+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Animation.swift"; sourceTree = "<group>"; };
 		1177AC8723E320C000ACF10C /* MyWishesRating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWishesRating.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1177AC8A23E320C000ACF10C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1177AC8C23E320C000ACF10C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +134,13 @@
 		117D58A623E3AE59001FACD0 /* ListCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCellViewModel.swift; sourceTree = "<group>"; };
 		117D58A823E3B097001FACD0 /* WishViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishViewModel.swift; sourceTree = "<group>"; };
 		117D58AC23E3B326001FACD0 /* UIView+Corners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Corners.swift"; sourceTree = "<group>"; };
+		11B9CC1923E4573E00EB03DA /* WishViewController+TableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WishViewController+TableDataSource.swift"; sourceTree = "<group>"; };
+		11B9CC1B23E4575200EB03DA /* WishViewController+TableDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WishViewController+TableDelegate.swift"; sourceTree = "<group>"; };
+		11B9CC1E23E457C400EB03DA /* WishCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishCell.swift; sourceTree = "<group>"; };
+		11B9CC2023E458D000EB03DA /* WishCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishCellViewModel.swift; sourceTree = "<group>"; };
+		11B9CC2323E461D600EB03DA /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		11B9CC2623E4620F00EB03DA /* RatingView+Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RatingView+Base.swift"; sourceTree = "<group>"; };
+		11B9CC2823E4624C00EB03DA /* RatingView+Setters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RatingView+Setters.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +168,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1100B36723E4EAC8006A0A48 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				1100B36823E4EAE2006A0A48 /* SortManager.swift */,
+				1100B36A23E4EAF7006A0A48 /* WishObserversManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		1100B37023E4F42B006A0A48 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1100B36C23E4EFB9006A0A48 /* WishViewModel+Table.swift */,
+				1100B37123E4F447006A0A48 /* WishViewModel+Rating.swift */,
+				1100B37323E4F45D006A0A48 /* WishViewModel+NavigationSelectors.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1100B37523E4F6E8006A0A48 /* UIMaker */ = {
+			isa = PBXGroup;
+			children = (
+				1100B37623E4F6F4006A0A48 /* UIMaker.swift */,
+			);
+			path = UIMaker;
+			sourceTree = "<group>";
+		};
+		1100B37823E505FF006A0A48 /* SortView */ = {
+			isa = PBXGroup;
+			children = (
+				1100B37923E5060D006A0A48 /* SortView.swift */,
+				1100B37E23E50825006A0A48 /* Extensions */,
+			);
+			path = SortView;
+			sourceTree = "<group>";
+		};
+		1100B37B23E50628006A0A48 /* WishViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				117D58A823E3B097001FACD0 /* WishViewModel.swift */,
+				1100B37023E4F42B006A0A48 /* Extensions */,
+			);
+			path = WishViewModel;
+			sourceTree = "<group>";
+		};
+		1100B37E23E50825006A0A48 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1100B38223E50875006A0A48 /* SortView+TableDataSource.swift */,
+				1100B38423E50889006A0A48 /* SortView+TableDelegate.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1100B37F23E50849006A0A48 /* SortCell */ = {
+			isa = PBXGroup;
+			children = (
+				1100B38023E50857006A0A48 /* SortCell.swift */,
+			);
+			path = SortCell;
+			sourceTree = "<group>";
+		};
 		1177AC7E23E320C000ACF10C = {
 			isa = PBXGroup;
 			children = (
@@ -303,6 +407,9 @@
 		1177ACCB23E3258200ACF10C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				11B9CC1923E4573E00EB03DA /* WishViewController+TableDataSource.swift */,
+				11B9CC1B23E4575200EB03DA /* WishViewController+TableDelegate.swift */,
+				1100B36E23E4F3B3006A0A48 /* WishViewController+Selectors.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -310,6 +417,7 @@
 		1177ACCC23E3258B00ACF10C /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				1100B36723E4EAC8006A0A48 /* Managers */,
 				1177ACCD23E3259600ACF10C /* ViewModels */,
 				1177ACCE23E3259D00ACF10C /* UI */,
 				1177ACCF23E325A100ACF10C /* Storyboard */,
@@ -320,7 +428,10 @@
 		1177ACCD23E3259600ACF10C /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				117D58A823E3B097001FACD0 /* WishViewModel.swift */,
+				1100B37B23E50628006A0A48 /* WishViewModel */,
+				11B9CC2023E458D000EB03DA /* WishCellViewModel.swift */,
+				1100B37C23E50656006A0A48 /* SortViewModel.swift */,
+				1100B38723E50A0F006A0A48 /* SortCellViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -328,6 +439,9 @@
 		1177ACCE23E3259D00ACF10C /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				1100B37823E505FF006A0A48 /* SortView */,
+				1100B37F23E50849006A0A48 /* SortCell */,
+				11B9CC1D23E457B700EB03DA /* WishCell */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -384,6 +498,7 @@
 		117D586E23E36560001FACD0 /* Objects */ = {
 			isa = PBXGroup;
 			children = (
+				1100B37523E4F6E8006A0A48 /* UIMaker */,
 				117D586F23E3656F001FACD0 /* JsonReader */,
 			);
 			path = Objects;
@@ -427,6 +542,7 @@
 		117D588523E37EE1001FACD0 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				11B9CC2223E461B400EB03DA /* RatingView */,
 				117D588B23E3847C001FACD0 /* AsyncImageView */,
 				117D588623E37EE6001FACD0 /* AlertPresenter */,
 			);
@@ -470,6 +586,7 @@
 		117D58AA23E3B30C001FACD0 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				11B9CC2523E461E100EB03DA /* RatingView */,
 				117D58AB23E3B316001FACD0 /* UIView */,
 			);
 			path = Extensions;
@@ -479,8 +596,34 @@
 			isa = PBXGroup;
 			children = (
 				117D58AC23E3B326001FACD0 /* UIView+Corners.swift */,
+				1138C94223E5BDAE00F944AB /* UIView+Animation.swift */,
 			);
 			path = UIView;
+			sourceTree = "<group>";
+		};
+		11B9CC1D23E457B700EB03DA /* WishCell */ = {
+			isa = PBXGroup;
+			children = (
+				11B9CC1E23E457C400EB03DA /* WishCell.swift */,
+			);
+			path = WishCell;
+			sourceTree = "<group>";
+		};
+		11B9CC2223E461B400EB03DA /* RatingView */ = {
+			isa = PBXGroup;
+			children = (
+				11B9CC2323E461D600EB03DA /* RatingView.swift */,
+			);
+			path = RatingView;
+			sourceTree = "<group>";
+		};
+		11B9CC2523E461E100EB03DA /* RatingView */ = {
+			isa = PBXGroup;
+			children = (
+				11B9CC2623E4620F00EB03DA /* RatingView+Base.swift */,
+				11B9CC2823E4624C00EB03DA /* RatingView+Setters.swift */,
+			);
+			path = RatingView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -616,31 +759,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1100B37423E4F45D006A0A48 /* WishViewModel+NavigationSelectors.swift in Sources */,
 				117D587123E36585001FACD0 /* JsonReader.swift in Sources */,
 				117D58AD23E3B326001FACD0 /* UIView+Corners.swift in Sources */,
+				1100B36F23E4F3B3006A0A48 /* WishViewController+Selectors.swift in Sources */,
 				117D589523E390FA001FACD0 /* CodingKeys.swift in Sources */,
+				1100B37A23E5060D006A0A48 /* SortView.swift in Sources */,
 				117D587823E36E11001FACD0 /* DataContainer.swift in Sources */,
 				117D589F23E3A2AD001FACD0 /* ListCell.swift in Sources */,
 				117D58A923E3B097001FACD0 /* WishViewModel.swift in Sources */,
 				1177AC8B23E320C000ACF10C /* AppDelegate.swift in Sources */,
 				117D588423E37C97001FACD0 /* Enums.swift in Sources */,
 				117D588823E37EF9001FACD0 /* AlertPresenter.swift in Sources */,
+				11B9CC2923E4624C00EB03DA /* RatingView+Setters.swift in Sources */,
+				1100B38123E50857006A0A48 /* SortCell.swift in Sources */,
 				117D589C23E3A144001FACD0 /* ListViewController+TableDelegate.swift in Sources */,
+				11B9CC2423E461D600EB03DA /* RatingView.swift in Sources */,
 				117D589323E390BD001FACD0 /* WishObject+Decodable.swift in Sources */,
+				11B9CC1A23E4573E00EB03DA /* WishViewController+TableDataSource.swift in Sources */,
 				117D588A23E3809D001FACD0 /* ListViewModel.swift in Sources */,
 				117D588F23E384BB001FACD0 /* AsyncImageView+Setter.swift in Sources */,
 				117D586D23E34A2B001FACD0 /* WishObject.swift in Sources */,
+				11B9CC1F23E457C400EB03DA /* WishCell.swift in Sources */,
 				117D58A123E3A75E001FACD0 /* ListObject+Decodable.swift in Sources */,
+				1100B37D23E50656006A0A48 /* SortViewModel.swift in Sources */,
+				1100B37223E4F447006A0A48 /* WishViewModel+Rating.swift in Sources */,
+				1100B37723E4F6F4006A0A48 /* UIMaker.swift in Sources */,
+				1100B38823E50A0F006A0A48 /* SortCellViewModel.swift in Sources */,
 				1177ACCA23E3257E00ACF10C /* WishViewController.swift in Sources */,
 				1177AC8D23E320C000ACF10C /* SceneDelegate.swift in Sources */,
 				117D587523E36C7F001FACD0 /* DataManager.swift in Sources */,
 				117D58A523E3AC2D001FACD0 /* Router.swift in Sources */,
+				11B9CC2723E4620F00EB03DA /* RatingView+Base.swift in Sources */,
+				11B9CC2123E458D000EB03DA /* WishCellViewModel.swift in Sources */,
 				117D587A23E376A2001FACD0 /* ObserversManager.swift in Sources */,
 				117D58A723E3AE59001FACD0 /* ListCellViewModel.swift in Sources */,
 				117D589823E39AD2001FACD0 /* ListObject.swift in Sources */,
 				117D589A23E3A135001FACD0 /* ListViewController+TableDataSource.swift in Sources */,
+				1100B36923E4EAE2006A0A48 /* SortManager.swift in Sources */,
+				1138C94323E5BDAE00F944AB /* UIView+Animation.swift in Sources */,
 				117D588D23E3848E001FACD0 /* AsyncImageView.swift in Sources */,
+				1100B38323E50875006A0A48 /* SortView+TableDataSource.swift in Sources */,
+				1100B36B23E4EAF7006A0A48 /* WishObserversManager.swift in Sources */,
+				11B9CC1C23E4575200EB03DA /* WishViewController+TableDelegate.swift in Sources */,
+				1100B38523E50889006A0A48 /* SortView+TableDelegate.swift in Sources */,
 				1177ACC223E3214000ACF10C /* ListViewController.swift in Sources */,
+				1100B36D23E4EFB9006A0A48 /* WishViewModel+Table.swift in Sources */,
 				117D587E23E37AD3001FACD0 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

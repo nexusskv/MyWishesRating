@@ -20,4 +20,6 @@ class DataContainer {
     var pcgamesArray: [WishObject]?       // All games objects
     
     var selectedType: WishesTypes?        // Selected type for wish view
+    
+    var selectedSortType: WishesSortTypes = .none
 }
