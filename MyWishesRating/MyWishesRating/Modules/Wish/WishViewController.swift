@@ -12,7 +12,10 @@ import UIKit
 
 class WishViewController: UIViewController {
     @IBOutlet weak var dataTable: UITableView!
+    @IBOutlet weak var sortView: SortView!
     var viewModel: WishViewModel!
+    var sortManager: SortManager!
+    var observersManager: WishObserversManager!
         
     
     override func viewDidLoad() {
@@ -21,11 +24,16 @@ class WishViewController: UIViewController {
         viewModel           = WishViewModel()
         
         viewModel.setupUI(self)
+        
+        sortManager      = SortManager()
+        observersManager = WishObserversManager()
     }
     
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+
+        observersManager.addObservers(self)
         
         viewModel.reloadTable(self)
     }
@@ -34,6 +42,8 @@ class WishViewController: UIViewController {
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         
+        observersManager.removeObservers(self)
+        
         DataContainer.shared.selectedType = nil
-    }
+    }  
 }

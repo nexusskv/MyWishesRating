@@ -16,6 +16,8 @@ class ListViewModel {
     
     /// ---> Function for UI customisations  <--- ///
     func setupUI(_ view: ListViewController) {
+        view.title = "My favorite wishes"
+        
         let bgView = UIView(frame: .zero)
         bgView.backgroundColor = .white
         view.dataTable.backgroundView  = bgView
@@ -70,8 +72,10 @@ class ListViewModel {
     /// ---> Function for present details view  <--- ///
     func presentDetails(_ view: ListViewController, index: Int) {
         if let type = WishesTypes(rawValue: index) {
-            DataContainer.shared.selectedType = type
-                        
+            DataContainer.shared.selectedType      = type
+            
+            DataContainer.shared.selectedSortType  = .none
+            
             Router.push("Wish", from: view)
         }
     }
