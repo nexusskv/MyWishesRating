@@ -13,11 +13,16 @@ import UIKit
 extension WishViewModel {
     
     
+    /// ---> Selector for sortItem in the navigationBar <--- ///
     @objc func sortItemTapped(_ sender: UIBarButtonItem) {
+        isRandomRatingStarted = false
+        randomTimer.invalidate()
+        
         NotificationCenter.default.post(name: sortItemTappedName, object: nil)
     }
     
     
+    /// ---> Selector for randomItem in the navigationBar <--- ///
     @objc func randomItemTapped(_ sender: UIBarButtonItem) {
         if !isRandomRatingStarted {
             isRandomRatingStarted = true

@@ -10,12 +10,12 @@ import Foundation
 import UIKit
 
 
-class ListViewModel {
+class ListViewModel: NSObject {
     var dataArray: [ListObject]!
     
     
     /// ---> Function for UI customisations  <--- ///
-    func setupUI(_ view: ListViewController) {
+    @objc func setupUI(_ view: ListViewController) {
         view.title = "My favorite wishes"
         
         let bgView = UIView(frame: .zero)
@@ -28,7 +28,7 @@ class ListViewModel {
     
     
     /// ---> Function for reload table  <--- ///
-    func reloadTable(_ view: ListViewController) {
+    @objc func reloadTable(_ view: ListViewController) {
         if let objects = DataContainer.shared.listArray {
             dataArray = objects
         }
@@ -38,7 +38,7 @@ class ListViewModel {
     
     
     /// ---> Function for make custom cells based on index of row  <--- ///
-    func makeCell(_ table: UITableView, at index: IndexPath) -> UITableViewCell {
+    @objc func makeCell(_ table: UITableView, at index: IndexPath) -> UITableViewCell {
         if let cell = table.dequeueReusableCell(withIdentifier: "ListCell", for: index) as? ListCell {
             
             let object = dataArray[index.row]
@@ -54,13 +54,13 @@ class ListViewModel {
     
     
     /// ---> Function for make custom height based on index of row  <--- ///
-    func makeHeight() -> CGFloat {
+    @objc func makeHeight() -> CGFloat {
         return 86.0
     }
     
     
     /// ---> Function for make count of rows  <--- ///
-    func makeRowsCount() -> Int {
+    @objc func makeRowsCount() -> Int {
         if dataArray != nil {
             return dataArray.count
         }
@@ -70,7 +70,7 @@ class ListViewModel {
     
     
     /// ---> Function for present details view  <--- ///
-    func presentDetails(_ view: ListViewController, index: Int) {
+    @objc func presentDetails(_ view: ListViewController, index: Int) {
         if let type = WishesTypes(rawValue: index) {
             DataContainer.shared.selectedType      = type
             

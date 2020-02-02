@@ -13,6 +13,7 @@ import UIKit
 class UIMaker {
     
     
+    /// ---> Function for make custom navigationItem <--- ///
     static func makeBarItem(_ rect: CGRect, image: String, target: AnyObject, selector: Selector) -> UIBarButtonItem {
         let barButton = UIButton(frame: rect)
         barButton.setImage(UIImage(named: image), for: .normal)

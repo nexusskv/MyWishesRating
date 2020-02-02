@@ -12,6 +12,7 @@ import UIKit
 
 class Router {
     
+    
     /// ---> Function for show some view controller from other view controller <--- ///
     static func push(_ vc: String, from parent: UIViewController) {
         let storyboard = UIStoryboard(name: vc, bundle: nil)
@@ -19,14 +20,6 @@ class Router {
 
         if let nc = parent.navigationController {
             nc.pushViewController(child, animated: true)
-        }
-    }
-    
-        
-    /// ---> Function for close some view controller from other view controller <--- ///
-    static func pop(_ vc: UIViewController) {
-        if let nc = vc.navigationController {
-            nc.popViewController(animated: true)
         }
     }
 }

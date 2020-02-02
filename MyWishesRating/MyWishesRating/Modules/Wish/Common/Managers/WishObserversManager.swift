@@ -10,11 +10,11 @@ import Foundation
 import UIKit
 
 
-class WishObserversManager {
+class WishObserversManager: NSObject {
     
     
     /// ---> Function for add observers  <--- ///
-    func addObservers(_ view: WishViewController) {
+    @objc func addObservers(_ view: WishViewController) {
         let defaultCenter = NotificationCenter.default
         
         defaultCenter.addObserver(view,
@@ -45,7 +45,7 @@ class WishObserversManager {
     
     
     /// ---> Function for remove observers <--- ///
-    func removeObservers(_ view: WishViewController) {
+    @objc func removeObservers(_ view: WishViewController) {
         NotificationCenter.default.removeObserver(view)
     }
 }

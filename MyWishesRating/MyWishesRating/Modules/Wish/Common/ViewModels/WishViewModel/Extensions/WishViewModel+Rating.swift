@@ -13,7 +13,8 @@ import UIKit
 extension WishViewModel {
     
     
-    func ratingDidChanged(_ values: [String: AnyObject]) {
+    /// ---> Selector for change rating on some object in array <--- ///
+    @objc func ratingDidChanged(_ values: [String: AnyObject]) {
         if let index = values["index"] as? Int {
             var object = dataArray[index]
             
@@ -32,7 +33,8 @@ extension WishViewModel {
     }
     
     
-    func ratingReceivedLimit(_ values: [String: AnyObject], view: WishViewController) {
+    /// ---> Selector for handle rating limit  <--- ///
+    @objc func ratingReceivedLimit(_ values: [String: AnyObject], view: WishViewController) {
         if let direction = values["limit"] as? String {
             if direction == rateUp {
                 AlertPresenter.showAlert(view,
@@ -45,7 +47,8 @@ extension WishViewModel {
     }
     
     
-    func sortDataAndSendRefresh() {
+    /// ---> Selector for sort array and refresh table <--- ///
+    @objc func sortDataAndSendRefresh() {
         dataArray = dataArray.sorted(by: { $0.rating > $1.rating })
         
         NotificationCenter.default.post(name: tableNeedRefreshName, object: nil)

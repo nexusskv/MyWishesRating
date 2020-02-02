@@ -19,6 +19,7 @@ class ListCellViewModel {
         cell.listImageView.roundCorners(radius, border: 0.5, color: .lightGray)
     }
     
+    
     /// ---> Setter for values on UI <--- ///
     func setValues(_ cell: ListCell, object: ListObject) {
         cell.listImageView.image = UIImage(named: object.image)

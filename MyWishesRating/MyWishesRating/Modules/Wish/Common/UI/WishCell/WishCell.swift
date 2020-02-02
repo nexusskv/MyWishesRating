@@ -30,11 +30,13 @@ class WishCell: UITableViewCell {
     }
     
     
+    /// ---> Action for up rating button  <--- ///
     @IBAction func upRatingButtonTapped(_ sender: UIButton) {
         viewModel.sendChangeRating(ratingView.rating, isUp: true, index: sender.tag)
     }
     
     
+    /// ---> Action for down rating button  <--- ///
     @IBAction func downRatingButtonTapped(_ sender: UIButton) {
         viewModel.sendChangeRating(ratingView.rating, isUp: false, index: sender.tag)
     }

@@ -17,6 +17,7 @@ enum WishesTypes: Int {
 }
 
 
+/// ---> Types of wishes sorts <--- ///
 enum WishesSortTypes: Int {
     case none     = 0
     case nameAsc

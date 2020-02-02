@@ -11,6 +11,8 @@ import Foundation
 
 class JsonReader {
     
+    
+    /// ---> Function for read some json file <--- ///
     static func readJson(_ file: String) -> AnyObject {
         if let path = Bundle.main.path(forResource: file, ofType: "json") {
             do {

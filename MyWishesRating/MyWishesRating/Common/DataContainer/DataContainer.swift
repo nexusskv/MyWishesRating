@@ -14,12 +14,12 @@ class DataContainer {
     
     static let shared = DataContainer()
     
-    var listArray: [ListObject]?          // All list objects
-    var booksArray: [WishObject]?         // All books objects
-    var carsArray: [WishObject]?          // All cars objects
-    var pcgamesArray: [WishObject]?       // All games objects
+    var listArray: [ListObject]?                        // All list objects
+    var booksArray: [WishObject]?                       // All books objects
+    var carsArray: [WishObject]?                        // All cars objects
+    var pcgamesArray: [WishObject]?                     // All games objects
     
-    var selectedType: WishesTypes?        // Selected type for wish view
+    var selectedType: WishesTypes?                      // Selected type for wish view
     
-    var selectedSortType: WishesSortTypes = .none
+    var selectedSortType: WishesSortTypes = .none       // Selected type of sort in sort view
 }

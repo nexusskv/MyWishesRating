@@ -12,6 +12,7 @@ import UIKit
 
 class AlertPresenter {
     
+    
     /// ---> Function for show alerts <--- ///
     static func showAlert(_ vc: UIViewController, message: String) {
         DispatchQueue.main.async(execute: {

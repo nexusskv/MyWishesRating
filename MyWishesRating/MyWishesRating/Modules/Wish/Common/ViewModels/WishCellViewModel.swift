@@ -33,6 +33,7 @@ class WishCellViewModel {
     }
     
     
+    /// ---> Selector for send notification with rating direction and object index  <--- ///
     func sendChangeRating(_ rating: Float, isUp: Bool, index: Int) {
         var direction = rateDown
         

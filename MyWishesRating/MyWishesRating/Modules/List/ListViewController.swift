@@ -13,14 +13,15 @@ import UIKit
 class ListViewController: UIViewController {
     @IBOutlet weak var dataTable: UITableView!
     var viewModel: ListViewModel!
-    var observersManager: ObserversManager!
+    var observersManager: ListObserversManager!
         
     
+    /// ---> View life cycle <--- ///
     override func viewDidLoad() {
         super.viewDidLoad()
         
         viewModel           = ListViewModel()
-        observersManager    = ObserversManager()
+        observersManager    = ListObserversManager()
         
         viewModel.setupUI(self)
     }
@@ -32,7 +33,7 @@ class ListViewController: UIViewController {
         observersManager.addObservers(self)
         
         if DataContainer.shared.listArray == nil {
-            DataManager.makeDataSource(self)
+            ListDataManager.makeDataSource(self)
         }
     }
     
@@ -41,10 +42,5 @@ class ListViewController: UIViewController {
         super.viewWillDisappear(animated)
         
         observersManager.removeObservers(self)
-    }
-
-    
-    @objc func reloadList() {
-        viewModel.reloadTable(self)
     }
 }

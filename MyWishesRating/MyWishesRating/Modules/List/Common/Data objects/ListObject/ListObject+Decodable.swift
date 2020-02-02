@@ -11,6 +11,7 @@ import Foundation
 
 extension ListObject: Decodable {
     
+    
     /// ---> Function for decode all values from json container <--- ///
     init(from decoder: Decoder) throws {
         let values = try decoder.container(keyedBy: ListCodingKeys.self)

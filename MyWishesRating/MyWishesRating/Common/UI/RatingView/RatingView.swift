@@ -33,6 +33,7 @@ class RatingView: UIView {
     var maxAllowedRating: Float!
     var starViews = [UIImageView]()
 
+    
     /// ---> Constructor function <--- ///
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)

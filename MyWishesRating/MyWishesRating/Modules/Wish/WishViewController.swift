@@ -14,10 +14,11 @@ class WishViewController: UIViewController {
     @IBOutlet weak var dataTable: UITableView!
     @IBOutlet weak var sortView: SortView!
     var viewModel: WishViewModel!
-    var sortManager: SortManager!
+    var sortManager: WishSortManager!
     var observersManager: WishObserversManager!
         
     
+    /// ---> View life cycle <--- ///
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -25,7 +26,7 @@ class WishViewController: UIViewController {
         
         viewModel.setupUI(self)
         
-        sortManager      = SortManager()
+        sortManager      = WishSortManager()
         observersManager = WishObserversManager()
     }
     

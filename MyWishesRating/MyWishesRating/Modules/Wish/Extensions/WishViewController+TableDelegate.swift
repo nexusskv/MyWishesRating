@@ -17,12 +17,4 @@ extension WishViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return viewModel.makeHeight()
     }
-    
-    
-    /// ---> Function of table view delegate protocol <--- ///
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        tableView.deselectRow(at: indexPath, animated: true)
-        
-        
-    }
 }

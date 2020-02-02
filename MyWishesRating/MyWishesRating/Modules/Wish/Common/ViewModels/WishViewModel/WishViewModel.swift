@@ -10,15 +10,15 @@ import Foundation
 import UIKit
 
 
-class WishViewModel {
+class WishViewModel: NSObject {
     var dataArray: [WishObject]!
     var randomTimer: Timer!
     var isRandomRatingStarted = false
     
     
     /// ---> Function for UI customisations  <--- ///
-    func setupUI(_ view: WishViewController) {
-        let buttonRect = CGRect(x: 0.0, y: 2.0, width: 40.0, height: 40.0)
+    @objc func setupUI(_ view: WishViewController) {
+        let buttonRect = CGRect(x: 0.0, y: 2.0, width: 25.0, height: 25.0)
 
         let randomItem = UIMaker.makeBarItem(buttonRect,
                                              image: "random_button",
@@ -29,7 +29,7 @@ class WishViewModel {
                                            image: "sort_button",
                                            target: self,
                                            selector:  #selector(sortItemTapped))
- 
+         
         view.navigationItem.rightBarButtonItems = [sortItem, randomItem]
         
         let bgView = UIView(frame: .zero)
@@ -41,7 +41,8 @@ class WishViewModel {
     }
     
     
-    func changeSortViewVisibility(_ view: WishViewController) {
+    /// ---> Function for change sortView visibility  <--- ///
+    @objc func changeSortViewVisibility(_ view: WishViewController) {
         if let manager = view.sortManager {
             manager.displaySortView(view)
         }

@@ -17,6 +17,7 @@ enum ListCodingKeys: String, CodingKey {
 
 }
 
+
 /// ---> Coding keys for decoding values in the wish object <--- ///
 enum WishCodingKeys: String, CodingKey {
     case wishId       = "id"

@@ -16,6 +16,7 @@ var asyncImagesCashArray = NSCache<NSString, UIImage>()
 class AsyncImageView: UIImageView {
     private var currentURL: NSString?
 
+    
     /// ---> Function for download image asyncronously <--- ///
     func loadAsync(_ url: String, placeholder: UIImage?) {
         let imageURL = url as NSString

@@ -12,6 +12,7 @@ import UIKit
 
 extension AsyncImageView {
     
+    
     /// ---> Function for set url to image view <--- ///
     func setUrl(_ value: String) {
         let holderImage = UIImage(named: "image_holder")
